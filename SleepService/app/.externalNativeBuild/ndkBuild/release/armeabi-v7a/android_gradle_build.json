@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\MyApps\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dD:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "EventInjector-release-armeabi-v7a": {
+      "buildCommand": "D:\\MyApps\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dD:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libEventInjector.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "EventInjector",
+      "files": [
+        {
+          "src": "D:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\EventInjector.c",
+          "flags": "\"-gcc-toolchain\" \"D:/MyApps/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-ID:/MyApps/android_app/SleepService/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/MyApps/ndk-bundle/build//../platforms/android-17/arch-arm/usr/include\""
+        }
+      ],
+      "output": "D:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libEventInjector.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "D:\\MyApps\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

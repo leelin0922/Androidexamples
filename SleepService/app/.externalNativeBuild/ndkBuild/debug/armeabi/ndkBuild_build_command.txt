@@ -1,0 +1,16 @@
+Executable : D:\MyApps\ndk-bundle\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=D:\MyApps\android_app\SleepService\app\src\main\jni\Android.mk
+APP_ABI=armeabi
+NDK_ALL_ABIS=armeabi
+NDK_DEBUG=1
+APP_PLATFORM=android-17
+NDK_OUT=D:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=D:\MyApps\android_app\SleepService\app\build\intermediates\ndkBuild\debug\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

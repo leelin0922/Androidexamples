@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\MyApps\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dD:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "EventInjector-debug-x86": {
+      "buildCommand": "D:\\MyApps\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-17 NDK_OUT\u003dD:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/MyApps/android_app/SleepService/app/build/intermediates/ndkBuild/debug/obj/local/x86/libEventInjector.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "EventInjector",
+      "files": [
+        {
+          "src": "D:\\MyApps\\android_app\\SleepService\\app\\src\\main\\jni\\EventInjector.c",
+          "flags": "\"-gcc-toolchain\" \"D:/MyApps/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-ID:/MyApps/android_app/SleepService/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-isystem\" \"D:/MyApps/ndk-bundle/build//../platforms/android-17/arch-x86/usr/include\""
+        }
+      ],
+      "output": "D:\\MyApps\\android_app\\SleepService\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libEventInjector.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\MyApps\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
